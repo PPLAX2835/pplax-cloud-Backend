@@ -28,6 +28,7 @@
         <module>auth-common</module>
         <module>article-common</module>
         <module>comment-common</module>
+        <module>message-common</module>
 
     </modules>
 </project>
