@@ -18,7 +18,7 @@ import javax.validation.constraints.Pattern;
 /**
  * @description link数据表的POJO <br/>
  * @date 2022-12-14 20:46:02 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Data

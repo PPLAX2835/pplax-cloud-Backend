@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @table white_url <br/>
  * @description TODO <br/>
  * @date 2022-12-13 21:00:16 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Data

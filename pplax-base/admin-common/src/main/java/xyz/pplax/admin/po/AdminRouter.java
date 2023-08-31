@@ -14,7 +14,7 @@ import java.io.Serializable;
  * @table admin_router <br/>
  * @description 后台管理路由 <br/>
  * @date 2022-12-30 22:47:42 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Data

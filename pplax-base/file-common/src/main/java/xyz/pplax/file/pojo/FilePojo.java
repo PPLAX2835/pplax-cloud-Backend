@@ -16,7 +16,7 @@ import javax.validation.constraints.NotNull;
 /**
  * @description file数据表的POJO <br/>
  * @date 2022-12-14 22:31:22 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Data

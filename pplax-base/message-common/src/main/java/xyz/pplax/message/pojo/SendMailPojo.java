@@ -3,7 +3,7 @@ package xyz.pplax.message.pojo;
 import lombok.Data;
 
 /**
- * @author xcye
+ * @author lax
  * @description
  * @date 2022-12-20 12:03:11
  */

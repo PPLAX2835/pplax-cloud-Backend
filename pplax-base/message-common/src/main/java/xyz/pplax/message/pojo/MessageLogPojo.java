@@ -13,7 +13,7 @@ import javax.validation.constraints.NotNull;
 /**
  * @description message_log数据表的POJO <br/>
  * @date 2022-12-14 22:01:53 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Data

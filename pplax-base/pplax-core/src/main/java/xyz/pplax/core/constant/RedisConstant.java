@@ -1,7 +1,7 @@
 package xyz.pplax.core.constant;
 
 /**
- * @author xcye
+ * @author lax
  * @description
  * @date 2023-01-01 23:56:39
  */

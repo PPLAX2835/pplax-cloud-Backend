@@ -14,7 +14,7 @@ import java.io.Serializable;
  * @table site_setting <br/>
  * @description 前台网站设置 <br/>
  * @date 2023-01-04 20:42:58 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Data

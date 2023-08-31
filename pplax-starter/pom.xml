@@ -22,6 +22,7 @@
 
     <modules>
 
+        <module>pplax-spring-boot-starter</module>
     </modules>
 
 </project>

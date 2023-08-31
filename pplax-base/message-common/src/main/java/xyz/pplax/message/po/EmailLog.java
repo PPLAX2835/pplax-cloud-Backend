@@ -14,7 +14,7 @@ import java.io.Serializable;
  * @table email_log <br/>
  * @description TODO <br/>
  * @date 2022-12-14 22:01:53 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Data

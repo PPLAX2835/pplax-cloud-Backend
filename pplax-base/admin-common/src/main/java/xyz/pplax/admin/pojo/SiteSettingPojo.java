@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 /**
  * @description site_setting数据表的POJO <br/>
  * @date 2023-01-04 20:42:58 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Data

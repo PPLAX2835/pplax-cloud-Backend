@@ -3,7 +3,7 @@ package xyz.pplax.file.vo;
 import lombok.Data;
 
 /**
- * @author xcye
+ * @author lax
  * @description
  * @date 2023-05-07 20:12:42
  */

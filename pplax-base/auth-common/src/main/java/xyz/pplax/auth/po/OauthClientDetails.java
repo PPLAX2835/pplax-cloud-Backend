@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @table oauth_client_details <br/>
  * @description TODO <br/>
  * @date 2022-12-14 23:53:19 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Data
