@@ -23,6 +23,7 @@
 
         <module>admin-service</module>
         <module>article-service</module>
+        <module>auth-server-service</module>
     </modules>
 
     <build>
