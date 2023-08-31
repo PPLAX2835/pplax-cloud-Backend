@@ -31,6 +31,9 @@
         <module>pplax-oauth2-starter</module>
         <module>pplax-redis-starter</module>
         <module>pplax-seata-starter</module>
+        <module>pplax-security-starter</module>
+        <module>pplax-sentinel-starter</module>
+        <module>pplax-swagger-starter</module>
     </modules>
 
 </project>
