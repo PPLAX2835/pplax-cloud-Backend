@@ -23,6 +23,7 @@
     <modules>
 
         <module>pplax-spring-boot-starter</module>
+        <module>pplax-amqp-starter</module>
     </modules>
 
 </project>
