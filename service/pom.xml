@@ -24,6 +24,7 @@
         <module>admin-service</module>
         <module>article-service</module>
         <module>auth-server-service</module>
+        <module>comment-service</module>
     </modules>
 
     <build>
