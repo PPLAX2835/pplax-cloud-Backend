@@ -29,6 +29,7 @@
         <module>article-common</module>
         <module>comment-common</module>
         <module>message-common</module>
+        <module>admin-common</module>
 
     </modules>
 </project>
