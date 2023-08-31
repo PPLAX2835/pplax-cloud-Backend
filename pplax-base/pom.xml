@@ -27,6 +27,7 @@
         <module>data-common</module>
         <module>auth-common</module>
         <module>article-common</module>
+        <module>comment-common</module>
 
     </modules>
 </project>
