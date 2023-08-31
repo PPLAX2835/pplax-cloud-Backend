@@ -65,6 +65,7 @@
         <blog.version>1.0-SNAPSHOT</blog.version>
         <swagger-annotations.version>1.5.20</swagger-annotations.version>
         <qiniu-java-sdk.version>7.11.0</qiniu-java-sdk.version>
+        <hibernate-validator.version>6.2.2.Final</hibernate-validator.version>
     </properties>
 
     <!--统一依赖管理-->
@@ -223,6 +224,11 @@
 
 
             <!--自己的common-->
+            <dependency>
+                <groupId>xyz.pplax.base</groupId>
+                <artifactId>pplax-core</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
 
 
             <!--自定义api-->
@@ -244,6 +250,13 @@
 
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${hibernate-validator.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
