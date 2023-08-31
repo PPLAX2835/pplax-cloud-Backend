@@ -10,7 +10,7 @@ import xyz.pplax.core.entity.R;
  * @author qsyyke
  */
 
-@FeignClient(value = "aurora-admin", name = "aurora-admin", contextId = "article-user-feign", fallback = ArticleUserFeignHandler.class)
+@FeignClient(value = "pplax-admin", name = "pplax-admin", contextId = "article-user-feign", fallback = ArticleUserFeignHandler.class)
 public interface ArticleUserFeignService {
 
     @PostMapping("/admin/user/queryUserByUid")

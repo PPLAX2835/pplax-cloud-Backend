@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.FeignClient;
  * @date Created in 2022/5/12 08:14
  */
 
-@FeignClient(value = "aurora-article", name = "aurora-article")
+@FeignClient(value = "pplax-article", name = "pplax-article")
 public interface CommentArticleFeignHandler {
 
 }

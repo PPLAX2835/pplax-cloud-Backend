@@ -13,7 +13,7 @@ import xyz.pplax.mail.api.feign.handler.UserFeignHandler;
  * @author qsyyke
  */
 
-@FeignClient(value = "aurora-admin", fallback = UserFeignHandler.class)
+@FeignClient(value = "pplax-admin", fallback = UserFeignHandler.class)
 public interface UserFeignService {
 
     @PostMapping("/admin/user/queryUserByUid")

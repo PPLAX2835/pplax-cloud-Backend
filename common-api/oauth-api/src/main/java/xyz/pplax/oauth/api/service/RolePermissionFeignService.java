@@ -14,7 +14,7 @@ import xyz.pplax.oauth.api.service.handler.RolePermissionFeignHandler;
  * @date Created in 2022/5/4 22:43
  */
 
-@FeignClient(value = "aurora-admin",name = "aurora-admin",
+@FeignClient(value = "pplax-admin",name = "pplax-admin",
         contextId = "authRolePermissionFeignService", fallback = RolePermissionFeignHandler.class)
 public interface RolePermissionFeignService {
 

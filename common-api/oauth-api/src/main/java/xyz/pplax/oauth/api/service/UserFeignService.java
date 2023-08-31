@@ -12,7 +12,7 @@ import xyz.pplax.oauth.api.service.handler.UserFeignHandler;
  * @date Created in 2022/5/7 12:51
  */
 
-@FeignClient(value = "aurora-admin", name = "aurora-admin",
+@FeignClient(value = "pplax-admin", name = "pplax-admin",
         contextId = "authUserFeignServer", fallback = UserFeignHandler.class)
 public interface UserFeignService {
 

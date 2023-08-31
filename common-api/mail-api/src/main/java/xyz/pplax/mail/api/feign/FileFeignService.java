@@ -12,7 +12,7 @@ import xyz.pplax.mail.api.feign.handler.FileFeignHandler;
  * @date Created in 2022/5/18 19:29
  */
 
-@FeignClient(value = "aurora-file", name = "aurora-file", fallback = FileFeignHandler.class)
+@FeignClient(value = "pplax-file", name = "pplax-file", fallback = FileFeignHandler.class)
 public interface FileFeignService {
 
     @PostMapping("/file/queryListFileByCondition")
