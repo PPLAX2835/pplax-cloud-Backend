@@ -26,6 +26,7 @@
         <module>file-common</module>
         <module>data-common</module>
         <module>auth-common</module>
+        <module>article-common</module>
 
     </modules>
 </project>
