@@ -1,7 +1,7 @@
 package xyz.pplax.core.exception.token;
 
 import xyz.pplax.core.enums.ResponseStatusCodeEnum;
-import xyz.pplax.core.exception.AuroraException;
+import xyz.pplax.core.exception.PPLAXException;
 
 /**
  * @author qsyyke
@@ -9,7 +9,7 @@ import xyz.pplax.core.exception.AuroraException;
  */
 
 
-public class TokenException extends AuroraException {
+public class TokenException extends PPLAXException {
 
     public TokenException(String message, Integer statusCode) {
         super(message, statusCode);

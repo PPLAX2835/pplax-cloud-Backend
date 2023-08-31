@@ -1,14 +1,14 @@
 package xyz.pplax.core.exception.user;
 
 import xyz.pplax.core.enums.ResponseStatusCodeEnum;
-import xyz.pplax.core.exception.AuroraException;
+import xyz.pplax.core.exception.PPLAXException;
 
 /**
  * @author qsyyke
  */
 
 
-public class UserException extends AuroraException {
+public class UserException extends PPLAXException {
 
     public UserException(String message, Integer statusCode) {
         super(message, statusCode);

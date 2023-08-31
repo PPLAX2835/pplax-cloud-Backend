@@ -1,7 +1,7 @@
 package xyz.pplax.core.exception.oauth;
 
 import xyz.pplax.core.enums.ResponseStatusCodeEnum;
-import xyz.pplax.core.exception.AuroraException;
+import xyz.pplax.core.exception.PPLAXException;
 
 /**
  * @author qsyyke
@@ -9,7 +9,7 @@ import xyz.pplax.core.exception.AuroraException;
  */
 
 
-public class OauthException extends AuroraException {
+public class OauthException extends PPLAXException {
 
     public OauthException(String message, Integer statusCode) {
         super(message, statusCode);

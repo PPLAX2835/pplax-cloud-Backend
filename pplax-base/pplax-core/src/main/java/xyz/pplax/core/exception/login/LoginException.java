@@ -1,7 +1,7 @@
 package xyz.pplax.core.exception.login;
 
 import xyz.pplax.core.enums.ResponseStatusCodeEnum;
-import xyz.pplax.core.exception.AuroraException;
+import xyz.pplax.core.exception.PPLAXException;
 
 /**
  * @author qsyyke
@@ -9,7 +9,7 @@ import xyz.pplax.core.exception.AuroraException;
  */
 
 
-public class LoginException extends AuroraException {
+public class LoginException extends PPLAXException {
 
     public LoginException(String message, Integer statusCode) {
         super(message, statusCode);

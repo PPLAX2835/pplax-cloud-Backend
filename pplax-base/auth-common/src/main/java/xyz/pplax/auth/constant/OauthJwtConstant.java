@@ -27,7 +27,7 @@ public class OauthJwtConstant {
     public static final String COOKIE_STORAGE_LOGIN_SUCCESS_STATUS = "login_status";
 
     /** cookie中存储cookie的秘钥 **/
-    public static final String STORAGE_COOKIE_SECRET_KEY = "aurora.cookie.secrey";
+    public static final String STORAGE_COOKIE_SECRET_KEY = "pplax.cookie.secrey";
 
     /** 静态白名单资源 **/
     public static final String[] PUBLIC_STATIC_RESOURCE = {"css","js","html", "png"};

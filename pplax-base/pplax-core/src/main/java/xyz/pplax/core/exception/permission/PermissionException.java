@@ -1,7 +1,7 @@
 package xyz.pplax.core.exception.permission;
 
 import xyz.pplax.core.enums.ResponseStatusCodeEnum;
-import xyz.pplax.core.exception.AuroraException;
+import xyz.pplax.core.exception.PPLAXException;
 
 /**
  * @author qsyyke
@@ -9,7 +9,7 @@ import xyz.pplax.core.exception.AuroraException;
  */
 
 
-public class PermissionException extends AuroraException {
+public class PermissionException extends PPLAXException {
 
     public PermissionException(String message, Integer statusCode) {
         super(message, statusCode);

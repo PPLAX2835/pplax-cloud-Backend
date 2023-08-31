@@ -7,10 +7,10 @@ package xyz.pplax.auth.enums;
 
 public class TokenConstant {
     /** 生成token时使用的盐 **/
-    public static final String JWT_SECRET_KEY = "https://aurora.xcye.xyz";
+    public static final String JWT_SECRET_KEY = "https://pplax.xcye.xyz";
 
     /** 生成token时的subject **/
-    public static final String JWT_SUBJECT = "https://aurora.xcye.xyz";
+    public static final String JWT_SUBJECT = "https://pplax.xcye.xyz";
 
     /** 将token放置在请求头中的名称 **/
     public static final String JWT_HEADER_TOKEN_NAME = "authentication_token";

@@ -1,7 +1,7 @@
 package xyz.pplax.core.exception.file;
 
 import xyz.pplax.core.enums.ResponseStatusCodeEnum;
-import xyz.pplax.core.exception.AuroraException;
+import xyz.pplax.core.exception.PPLAXException;
 
 /**
  * 和文件相关的自定义异常
@@ -9,7 +9,7 @@ import xyz.pplax.core.exception.AuroraException;
  */
 
 
-public class FileException extends AuroraException {
+public class FileException extends PPLAXException {
 
     public FileException(String message, Integer statusCode) {
         super(message, statusCode);

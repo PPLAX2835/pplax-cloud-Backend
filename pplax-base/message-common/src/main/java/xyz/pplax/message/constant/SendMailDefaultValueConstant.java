@@ -7,5 +7,5 @@ public class SendMailDefaultValueConstant {
     /**
      * 普通通知的默认通知地址
      **/
-    public static final String COMMON_NOTICE_PATH = "https://aurora.xcye.xyz";
+    public static final String COMMON_NOTICE_PATH = "https://pplax.xcye.xyz";
 }

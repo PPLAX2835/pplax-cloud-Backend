@@ -225,10 +225,10 @@ public class FileUtils {
 
     /**
      * 根据传入的前缀，将需要切割的文件路径变成在nginx中映射的访问后缀
-     * <p>如在nginx中配置某个server，root为/usr/aurora-file，/usr/aurora-file目录中存在一个文件，路径为
-     * /usr/aurora-file/image/2022/bb/a.jpg，那么就返回/image/2022/bb/a.jpg</p>
-     * <p>prefixPath可以是/usr/aurora-file或者/usr/aurora-file/</p>
-     * @param prefixPath nginx设置的root路径，如描述中的/usr/aurora-file
+     * <p>如在nginx中配置某个server，root为/usr/pplax-file，/usr/pplax-file目录中存在一个文件，路径为
+     * /usr/pplax-file/image/2022/bb/a.jpg，那么就返回/image/2022/bb/a.jpg</p>
+     * <p>prefixPath可以是/usr/pplax-file或者/usr/pplax-file/</p>
+     * @param prefixPath nginx设置的root路径，如描述中的/usr/pplax-file
      * @param path 存放在nginx的root路径下得文件路径，如描述中的/image/2022/bb/a.jpg
      * @return
      */

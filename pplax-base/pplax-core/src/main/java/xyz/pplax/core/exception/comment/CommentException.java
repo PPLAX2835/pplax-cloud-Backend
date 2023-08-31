@@ -1,7 +1,7 @@
 package xyz.pplax.core.exception.comment;
 
 import xyz.pplax.core.enums.ResponseStatusCodeEnum;
-import xyz.pplax.core.exception.AuroraException;
+import xyz.pplax.core.exception.PPLAXException;
 
 /**
  * @author qsyyke
@@ -9,7 +9,7 @@ import xyz.pplax.core.exception.AuroraException;
  */
 
 
-public class CommentException extends AuroraException {
+public class CommentException extends PPLAXException {
 
     public CommentException(String message) {
         super(message);
