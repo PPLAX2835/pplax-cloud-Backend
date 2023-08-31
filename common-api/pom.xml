@@ -22,6 +22,14 @@
 
     <modules>
 
+        <module>gateway-api</module>
+        <module>admin-api</module>
+        <module>amqp-api</module>
+        <module>amqp-mail-api</module>
+        <module>article-api</module>
+        <module>comment-api</module>
+        <module>mail-api</module>
+        <module>oauth-api</module>
     </modules>
 
 </project>
