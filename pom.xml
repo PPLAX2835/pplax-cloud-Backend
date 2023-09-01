@@ -220,7 +220,77 @@
             </dependency>
 
             <!--自定义starter-->
+            <dependency>
+                <groupId>xyz.pplax.starter</groupId>
+                <artifactId>pplax-mybatis-starter</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
 
+            <dependency>
+                <groupId>xyz.pplax.starter</groupId>
+                <artifactId>pplax-redis-starter</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.starter</groupId>
+                <artifactId>pplax-datasource-starter</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.starter</groupId>
+                <artifactId>pplax-feign-starter</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.starter</groupId>
+                <artifactId>pplax-amqp-starter</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.starter</groupId>
+                <artifactId>pplax-nacos-starter</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.starter</groupId>
+                <artifactId>pplax-seata-starter</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.starter</groupId>
+                <artifactId>pplax-swagger-starter</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.starter</groupId>
+                <artifactId>pplax-security-starter</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.starter</groupId>
+                <artifactId>pplax-spring-boot-starter</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.starter</groupId>
+                <artifactId>pplax-oauth2-starter</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.starter</groupId>
+                <artifactId>pplax-sentinel-starter</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
 
 
             <!--自己的common-->
@@ -230,11 +300,153 @@
                 <version>${blog.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>xyz.pplax.base</groupId>
+                <artifactId>comment-common</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.base</groupId>
+                <artifactId>file-common</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.base</groupId>
+                <artifactId>admin-common</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.base</groupId>
+                <artifactId>message-common</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.base</groupId>
+                <artifactId>pplax-core</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.base</groupId>
+                <artifactId>auth-common</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.base</groupId>
+                <artifactId>data-common</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.base</groupId>
+                <artifactId>article-common</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.base</groupId>
+                <artifactId>amqp-common</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
 
             <!--自定义api-->
+            <dependency>
+                <groupId>xyz.pplax.api</groupId>
+                <artifactId>amqp-mail-api</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.api</groupId>
+                <artifactId>mail-api</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.api</groupId>
+                <artifactId>admin-api</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.api</groupId>
+                <artifactId>oauth-api</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.api</groupId>
+                <artifactId>article-api</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.api</groupId>
+                <artifactId>amqp-api</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax.api</groupId>
+                <artifactId>gateway-api</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax</groupId>
+                <artifactId>support</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax</groupId>
+                <artifactId>support-service</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
 
 
             <!--service层-->
+            <dependency>
+                <groupId>xyz.pplax</groupId>
+                <artifactId>admin-service</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax</groupId>
+                <artifactId>article-service</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax</groupId>
+                <artifactId>comment-service</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax</groupId>
+                <artifactId>file-service</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax</groupId>
+                <artifactId>message-service</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>xyz.pplax</groupId>
+                <artifactId>auth-server-service</artifactId>
+                <version>${blog.version}</version>
+            </dependency>
 
 
             <!--七牛云sdk-->

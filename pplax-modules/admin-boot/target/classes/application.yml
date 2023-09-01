@@ -1,0 +1,15 @@
+server:
+  compression:
+    enabled: false
+spring:
+  application:
+    name: seata-server
+  profiles:
+    active: dev
+  main:
+    allow-circular-references: true
+#  cc:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/pplax_admin?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+#    username: root
+#    password: root
