@@ -59,7 +59,7 @@
             au_role
         WHERE
             au_user_role.user_uid=#{uid}
-        and
+          and
             au_role.uid=au_user_role.role_uid
     </select>
     <select id="loadRolePermissionRelByRoleUid" resultType="xyz.pplax.admin.dto.RolePermissionDTO">
