@@ -21,5 +21,6 @@
 
     <modules>
 
+        <module>gateway-boot</module>
     </modules>
 </project>
