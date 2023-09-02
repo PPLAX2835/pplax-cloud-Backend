@@ -35,7 +35,7 @@ spring:
           - data-id: share-feign-dev.yaml
             group: THEME-GROUP
             refresh: true
-          - data-id: share-aurora-oauth-dev.yaml
+          - data-id: share-pplax-oauth-dev.yaml
             group: THEME-GROUP
             refresh: true
           - data-id: share-rabbitmq-dev.yaml
