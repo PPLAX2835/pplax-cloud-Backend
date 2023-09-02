@@ -60,7 +60,7 @@
 
 	<!-- common methods start -->
     <!-- 新增一条数据 -->
-	<insert id="insert" parameterType="xyz.xcye.auth.po.LoginInfo" useGeneratedKeys="true" keyProperty="uid">
+	<insert id="insert" parameterType="xyz.pplax.auth.po.LoginInfo" useGeneratedKeys="true" keyProperty="uid">
         INSERT INTO au_login_info (
             <trim suffixOverrides=",">
                 <if test="uid != null">

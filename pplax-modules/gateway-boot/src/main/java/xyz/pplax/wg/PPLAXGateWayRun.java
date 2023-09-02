@@ -9,7 +9,7 @@ import org.springframework.context.annotation.FilterType;
  * @author qsyyke
  */
 
-@ComponentScan(excludeFilters = {@ComponentScan.Filter(type = FilterType.REGEX, pattern = {"xyz.xcye.pplax.exception.*", "xyz.xcye.pplax.interceptor.*","xyz.xcye.pplax.manager.advice.*"})})
+@ComponentScan(excludeFilters = {@ComponentScan.Filter(type = FilterType.REGEX, pattern = {"xyz.pplax.core.exception.*", "xyz.pplax.starter.interceptor.*","xyz.pplax.starter.manager.advice.*"})})
 @SpringBootApplication
 public class PPLAXGateWayRun {
     public static void main(String[] args) {
