@@ -8,7 +8,7 @@ import xyz.pplax.service.base.BaseDao;
  * @table comment <br/>
  * @description comment 数据表DAO层 <br/>
  * @date 2022-12-14 21:35:45 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Mapper

@@ -10,7 +10,7 @@ import xyz.pplax.service.base.BaseService;
  * @table link <br/>
  * @description link 数据表Service层 <br/>
  * @date 2022-12-14 20:46:02 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Service

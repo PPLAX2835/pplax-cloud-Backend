@@ -10,7 +10,7 @@ import xyz.pplax.service.base.BaseService;
  * @table oauth_client_details <br/>
  * @description oauth_client_details 数据表Service层 <br/>
  * @date 2022-12-14 23:53:19 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Service

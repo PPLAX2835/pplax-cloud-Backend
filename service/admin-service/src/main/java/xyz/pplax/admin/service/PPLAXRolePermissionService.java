@@ -10,7 +10,7 @@ import xyz.pplax.service.base.BaseService;
  * @table role_permission <br/>
  * @description role_permission 数据表Service层 <br/>
  * @date 2022-12-13 22:06:00 <br/>
- * @author xcye <br/>
+ * @author lax <br/>
  */
 
 @Service
