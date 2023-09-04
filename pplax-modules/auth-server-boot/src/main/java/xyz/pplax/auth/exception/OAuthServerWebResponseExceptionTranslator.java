@@ -1,5 +1,6 @@
 package xyz.pplax.auth.exception;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.AuthenticationException;
@@ -23,6 +24,7 @@ import xyz.pplax.core.exception.login.LoginException;
 
 public class OAuthServerWebResponseExceptionTranslator implements WebResponseExceptionTranslator {
 
+    @Autowired
     private LoginInfoAop loginInfoAop;
 
     /**

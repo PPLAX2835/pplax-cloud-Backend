@@ -56,7 +56,7 @@ public class PPLAXOpenApiAutoConfig {
     /**
      * 网关的地址，用于聚合springdoc文档的时候用到
      */
-    @Value("${pplax.gateway.server-base-url:http://localhost:7777}")
+    @Value("${pplax.gateway.server-base-url:http://localhost:8080}")
     private String gatewayServerBaseUrl;
 
     @Bean
