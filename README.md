@@ -104,6 +104,6 @@ docker-compose -f docker-compose.yml up
 
 访问地址
 
-[127.0.0.1:${YourApplicationPort}/v3/api-docs](http://127.0.0.1:8085/v3/api-docs)
+[http://localhost:8080/webjars/swagger-ui/index.html](http://127.0.0.1:8085/v3/api-docs)
 
 ​![image](assets/image-20230903180413-dcx6mid.png)​

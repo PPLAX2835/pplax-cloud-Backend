@@ -88,7 +88,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     public AuthorizationServerTokenServices tokenServices() {
         DefaultTokenServices services = new DefaultTokenServices();
         //客户端端配置策略
-        services.setClientDetailsService(clientDetailsService);
+        services.setClientDetailsService(clientDetailsService);     // 使用jdbc存储
         //支持令牌的刷新
         services.setSupportRefreshToken(true);
         //令牌存储服务
