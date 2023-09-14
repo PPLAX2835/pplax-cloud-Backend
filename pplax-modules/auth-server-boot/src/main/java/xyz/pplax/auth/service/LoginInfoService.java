@@ -3,13 +3,16 @@ package xyz.pplax.auth.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
+import org.springframework.util.StringUtils;
 import xyz.pplax.auth.po.LoginInfo;
 import xyz.pplax.auth.pojo.LoginInfoPojo;
 import xyz.pplax.auth.vo.LoginInfoVO;
 import xyz.pplax.core.util.BeanUtils;
+import xyz.pplax.core.util.NetWorkUtils;
 import xyz.pplax.data.entity.Condition;
 import xyz.pplax.data.entity.PageData;
 import xyz.pplax.data.util.PageUtils;
+import xyz.pplax.starter.util.PPLAXRequestUtils;
 
 import java.util.Arrays;
 import java.util.Optional;
@@ -59,10 +62,10 @@ public class LoginInfoService {
     public int updateLoginInfo(LoginInfoPojo record) {
         Assert.notNull(record, "登录信息不能为null");
         // 如果ip为null的话，则从请求中获取
-        // if (!StringUtils.hasLength(record.getLoginIp())) {
-        //     String ip = NetWorkUtils.getIpAddr(PPLAXRequestUtils.getCurrentRequest());
-        //     record.setLoginIp(ip);
-        // }
+         if (!StringUtils.hasLength(record.getLoginIp())) {
+             String ip = NetWorkUtils.getIpAddr(PPLAXRequestUtils.getCurrentRequest());
+             record.setLoginIp(ip);
+         }
         return pplaxLoginInfoService.updateById(BeanUtils.copyProperties(record, LoginInfo.class));
     }
 }
