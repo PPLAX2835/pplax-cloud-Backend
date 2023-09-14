@@ -11,12 +11,17 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
+<<<<<<< HEAD
  * @table admin_router <br/>
  * @description 后台管理路由 <br/>
  * @date 2022-12-30 22:47:42 <br/>
  * @author lax <br/>
  */
 
+=======
+ * 后台管理路由的实体类
+ */
+>>>>>>> origin/pplax-origin
 @Data
 @Builder
 @NoArgsConstructor

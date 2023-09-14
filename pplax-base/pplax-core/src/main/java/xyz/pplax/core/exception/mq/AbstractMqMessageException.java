@@ -5,11 +5,15 @@ import xyz.pplax.core.exception.PPLAXException;
 
 /**
  * 和消息中间件相关的抽象异常类
+<<<<<<< HEAD
  * @author qsyyke
  * @date Created in 2022/4/28 08:52
  */
 
 
+=======
+ */
+>>>>>>> origin/pplax-origin
 public abstract class AbstractMqMessageException extends PPLAXException {
 
     public AbstractMqMessageException(String message, Integer statusCode) {
